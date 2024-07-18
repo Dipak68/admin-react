@@ -1,0 +1,22 @@
+.Home{
+    /* padding-top: 1rem; */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    row-gap: 100px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+    .Home{
+        justify-content:flex-start;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .Home{
+        align-items: center;
+    }
+}

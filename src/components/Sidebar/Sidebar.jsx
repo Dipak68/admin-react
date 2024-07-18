@@ -27,13 +27,7 @@ const Sidebar = () => {
       <motion.div className="sidebar " variants={sidebarVariants} animate={window.innerWidth <= 768 ? `${expanded}` : ""}
       >
         <div   >
-          <img
-            alt="Your Company"
-            src="https://www.vmukti.com/wp-content/uploads/2021/09/vmukti-New-H-2021-final.png"
-            width={150}
-            
-            height={60}
-            />
+{/*           {Drop your Logo} */}
             
         </div>
 

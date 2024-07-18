@@ -12,6 +12,8 @@ const Home = () => {
         <h1>DashBoard</h1>
         <Cards/>
         <Table/>
+
+        {/* hello */}
     </div>
     
   )

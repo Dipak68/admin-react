@@ -118,7 +118,7 @@ function ExpandedCard({param,setExpanded}){
       background: param.color.backGround,
       boxShadow: param.color.boxShadow,
     }} 
-    layoutId='expandableCard '
+    layoutId='expandedCard '
     >
 
       <div style={{alignSelf : 'flex-end', cursor:'pointer',color:'white'}}>
